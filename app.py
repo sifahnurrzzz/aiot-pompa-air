@@ -684,20 +684,6 @@ Adafruit BusIO""", language="text")
             icon = "🟢" if ext in ['pkl','csv','py','txt','md'] else "⚪"
             st.markdown(f"{icon} `{item}`")
 
-    st.markdown("---")
-    st.markdown("#### Cara Deploy ke Streamlit Cloud")
-    st.code("""# 1. Push semua file ke GitHub
-git init
-git add .
-git commit -m "AIoT Pompa Air Dashboard"
-git remote add origin https://github.com/username/aiot-pompa-air.git
-git push -u origin main
-
-# 2. Buka https://share.streamlit.io
-# 3. Connect GitHub repo
-# 4. Set main file: app.py
-# 5. Deploy!""", language="bash")
-
 
 # ─────────────────────────────────────────────────────────────
 # FOOTER
